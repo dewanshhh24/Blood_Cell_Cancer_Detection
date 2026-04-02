@@ -1,56 +1,31 @@
 # Virtual Environment
 venv/
-venv2/
 .venv/
 env/
 ENV/
 
-# Python cache files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
 *.pyc
 *.pyo
 *.pyd
+*.py[cod]
 
-# TensorFlow / Keras temporary files
-
-checkpoint
-saved_model/
-
-# Model files (agar bahar se download kar rahe ho, toh ignore mat karo)
-# models/          ← Comment out kar diya kyunki tum models folder chahiye
-
-# Logs & Database
+# Logs
 *.log
 logs/
-*.sqlite3
 
-# Environment variables
+# Environment
 .env
-.ENV
 
-# IDE & Editor files
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS generated files
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Render / Deployment specific
-.render
-build/
-dist/
-
-# Temporary files
+# Only ignore these (optional)
+*.tmp
 temp/
-tmp/
