@@ -14,8 +14,7 @@ __pycache__/
 *.pyd
 
 # TensorFlow / Keras temporary files
-*.h5
-*.keras
+
 checkpoint
 saved_model/
 
