@@ -1,5 +1,5 @@
 flask==3.0.*
-tensorflow==2.16.*
+tensorflow==2.15.*
 numpy==1.26.*
-pillow
+pillow==10.*
 gunicorn==23.0.*
